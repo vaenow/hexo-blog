@@ -68,7 +68,7 @@ theme: jacman
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/vaenow/vaenow.github.io
+#  type: git
+#  repo: https://github.com/vaenow/vaenow.github.io
   branch: 
   message: 
