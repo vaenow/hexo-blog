@@ -8,7 +8,8 @@
         <% if (item.excerpt && index){ %>
         <%- item.excerpt %>
         <% } else { %>
-        <%- item.content %>
+        <!-- <%- item.content %>-->
+        <p itemprop="description" ><%- item.content.substring(0, 500) %></p>
         <% } %>
         
         <p class="article-more-link">
